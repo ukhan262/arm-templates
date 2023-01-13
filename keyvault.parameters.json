@@ -1,0 +1,29 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "keyVaultNames": {
+            "value": [
+                "keyvault1",
+                "keyvault2",
+                "keyvault3",
+                "keyvault4",
+                "keyvault5",
+                "keyvault6",
+                "keyvault7",
+                "keyvault8",
+                "keyvault9",
+                "keyvault10"
+            ]
+        },
+        "location": {
+            "value": "West US 2"
+        },
+        "enabledForDeployment": {
+            "value": true
+        },
+        "enabledForTemplateDeployment": {
+            "value": true
+        }
+    }
+}
